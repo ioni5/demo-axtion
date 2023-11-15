@@ -20,4 +20,5 @@ test('adds 1 + 2 to equal 3', () => {
   expect(sum(50, 50)).toBe(100);
   expect(sum(50, 50)).toBe(100);
   expect(sum(3, 3)).toBe(6);
+  expect(sum(3, 3)).toBe(6);
 });
