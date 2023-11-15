@@ -10,4 +10,7 @@ test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 1)).toBe(2);
   expect(sum(1, 1)).toBe(2);
   expect(sum(1, 10)).toBe(20);
+  expect(sum(0, 5)).toBe(5);
+  expect(sum(0, 5)).toBe(5);
+  expect(sum(0, 5)).toBe(5);
 });
